@@ -1,0 +1,123 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  caret-color: transparent;
+  background-image: url('./img.gif');
+  background-size: 80%;
+  background-position-x: 260%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #F39C12;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  min-height: 65vh;
+}
+
+section {
+  text-align: center;
+  padding: 15px;
+  background: linear-gradient(to right, #3498db, #9b59b6);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 0px;
+  font-family: 'Press Start 2P', cursive;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+#field {
+  padding: 30px;
+  min-width: 20vh;
+}
+
+#container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  font-family: "Finger Paint", sans-serif;
+  color: #cc7a2e;
+  box-shadow: 0 0 0 1px #6e92a3;
+  border: 1px solid #6e92a3;
+  cursor: pointer;
+  line-height: 1em;
+  background: #1a8cd8;
+}
+
+.sidebar {
+  width: 125px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button_box {
+  box-sizing: border-box;
+  background: #e74c3c;
+  border-radius: 10px;
+  padding: 15px 30px;
+  margin: 0 0 10px 0;
+  border: none;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button_box:hover {
+  background-color: #c0392b;
+}
+
+#titleTurns {
+  font-size: 1em;
+}
+
+#numberTurns {
+  font-size: 1.4em;
+  margin: 10px 0;
+}
+
+.instructions {
+  text-align: center;
+  background: linear-gradient(to right, #e74c3c, #f39c12);
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.instructions h3 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.2em;
+  margin: 8px 0;
+  line-height: 1.2em;
+}
+#rules {
+  display: none;
+}
+
